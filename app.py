@@ -40,7 +40,7 @@ with st.sidebar:
 if uploaded_file is not None:
     ext = validate_file(uploaded_file)
     if ext:
-        filezie = get_filesize(uploaded_file)
+        filesize = get_filesize(uploaded_file)
         if filesize <=10:
             if ext == '.csv':
                 # time being let load csv
